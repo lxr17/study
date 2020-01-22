@@ -247,3 +247,35 @@
 # if __name__ == '__main__':
 #     number = count_day(2020, 3, 21)
 #     print(number)
+
+
+# 实现一个杨辉三角的输出
+# def main(n):
+#     last_list = []
+#     list = []
+#
+#     for i in range(1, n + 1):
+#         list.clear()
+#         if i == 1:
+#             print(1)
+#             list.append(1)
+#             last_list.extend(list)
+#         else:
+#             for j in range(i):
+#                 if j == 0 or j == i - 1:
+#                     print(1, end=" ")
+#                     list.append(1)
+#                 else:
+#                     _ = last_list[j] + last_list[j - 1]
+#                     print(_, end=" ")
+#                     list.append(_)
+#             print()
+#             last_list.clear()
+#             last_list.extend(list)
+#
+#
+# if __name__ == '__main__':
+#     a = int(input("请输入一个整数："))
+#     main(a)
+
+
